@@ -9,6 +9,6 @@ Mobile-COD is a lightweight framework for real-time camouflaged object detection
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Mobile-COD.git
+git clone https://github.com/sijan204025/Mobile-COD.git
 cd Mobile-COD
 pip install -r requirements.txt
