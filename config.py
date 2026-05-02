@@ -16,20 +16,20 @@ class Config:
     # Dataset paths - Adjusted for your structure
     dataset_paths = {
         'camo': {
-            'train_img': r"E:/object dataset/camo dataset/CAMO-V.1.0-CVIU2019/Test/Train",
-            'train_mask': r"E:/object dataset/camo dataset/CAMO-V.1.0-CVIU2019/GT",
-            'test_img': r"E:/object dataset/camo dataset/CAMO-V.1.0-CVIU2019/Test/Image",
-            'test_mask': r"E:/object dataset/camo dataset/CAMO-V.1.0-CVIU2019/GT"
+            'train_img': "camo dataset/CAMO-V.1.0-CVIU2019/Test/Train",
+            'train_mask': "camo dataset/CAMO-V.1.0-CVIU2019/GT",
+            'test_img': "camo dataset/CAMO-V.1.0-CVIU2019/Test/Image",
+            'test_mask': "camo dataset/CAMO-V.1.0-CVIU2019/GT"
         },
         'cod10k': {
-            'train_img': r"E:\object dataset\cod10k dataset\COD10K-v2\Train\Image",
-            'train_mask': r"E:\object dataset\cod10k dataset\COD10K-v2\Train\GT_object",
-            'test_img': r"E:\object dataset\cod10k dataset\COD10K-v2\Test\Image",
-            'test_mask': r"E:\object dataset\cod10k dataset\COD10K-v2\Test\GT_object"
+            'train_img': "cod10k dataset\COD10K-v2\Train\Image",
+            'train_mask': "cod10k dataset\COD10K-v2\Train\GT_object",
+            'test_img': "cod10k dataset\COD10K-v2\Test\Image",
+            'test_mask': "cod10k dataset\COD10K-v2\Test\GT_object"
         },
         'nc4k': {
-            'test_img': r"E:/object dataset/Nc4k dataset/Image",
-            'test_mask': r"E:/object dataset/Nc4k dataset/GT_object"
+            'test_img': "Nc4k dataset/Image",
+            'test_mask': "Nc4k dataset/GT_object"
         }
     }
 
