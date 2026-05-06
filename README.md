@@ -24,9 +24,42 @@ Mobile-COD is a lightweight framework for real-time camouflaged object detection
 - OpenCV ≥ 4.5.0
 - NumPy ≥ 1.19.0
 
+
 ### Installation
 
 ```bash
 git clone https://github.com/sijan204025/Mobile-COD.git
 cd Mobile-COD
 pip install -r requirements.txt
+```  
+
+ ## Key Algorithm Description
+
+### Boundary-Guided Module
+
+Our Boundary-Guided Module enhances edge-aware feature learning by incorporating multi-scale boundary supervision. This module explicitly models fine-grained boundaries between camouflaged objects and their background, addressing the core challenge of camouflaged object detection.
+
+### Lightweight Backbone
+
+We adopt a lightweight MobileNet-based backbone optimized for mobile deployment. Depth-wise separable convolutions reduce computational cost and model size while enabling real-time inference on mobile platforms.
+
+### Implementation Details
+
+| Parameter | Value |
+|-----------|-------|
+| Input resolution | 256 × 256 |
+| Backbone | MobileNet |
+| Framework | PyTorch |
+
+## Datasets
+
+Three benchmark datasets downloaded from Kaggle are used to evaluate Mobile-COD:
+
+| Dataset | Source |
+|---------|--------|
+| CAMO | Kaggle |
+| COD10K | Kaggle |
+| NC4K | Kaggle |
+
+These datasets are publicly available for research use. All input images are resized to **256 × 256** before being fed into the network. 
+
