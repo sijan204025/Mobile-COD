@@ -57,9 +57,9 @@ Three benchmark datasets downloaded from Kaggle are used to evaluate Mobile-COD:
 
 | Dataset | Source |
 |---------|--------|
-| CAMO | Kaggle |
-| COD10K | Kaggle |
-| NC4K | Kaggle |
+| CAMO | [Kaggle](https://www.kaggle.com/datasets/ivanomelchenkoim11/camo-dataset) |
+| COD10K |[ Kaggle ](https://www.kaggle.com/datasets/getcam/cod10k)|
+| NC4K |[ Kaggle](https://www.kaggle.com/datasets/ivanomelchenkoim11/nc4k-dataset) |
 
 These datasets are publicly available for research use. All input images are resized to **256 × 256** before being fed into the network. 
 
