@@ -6,7 +6,7 @@
 
 If you use this code, data, or models in your research, please cite:
 
-**Md Mehady Hasan, Caikou Chen, Abdul Ghafar, "Mobile-COD: Boundary-Guided Lightweight Framework for Real-Time Camouflaged Object Detection on Mobile Platforms," *The Visual Computer*, 2026.**
+**Md Mehady Hasan, Caikou Chen, Abdul Ghafar, "Mobile-COD: Boundary-Guided Lightweight Framework for Real-Time Camouflaged Object Detection on Mobile Platforms," *Multimedia systems*, 2026.**
 
 ---
 
